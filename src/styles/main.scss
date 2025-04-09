@@ -1,0 +1,28 @@
+.input-area {
+   position: absolute;
+   bottom: 160px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   z-index: 3;
+ 
+   input {
+     width: 60%;
+     padding: 10px;
+     font-size: 1rem;
+     border: none;
+     border-radius: 5px 0 0 5px;
+     outline: none;
+   }
+ 
+   button {
+     padding: 10px 20px;
+     font-size: 1rem;
+     border: none;
+     background-color: #ff6b81;
+     color: white;
+     border-radius: 0 5px 5px 0;
+     cursor: pointer;
+   }
+ }
+ 
