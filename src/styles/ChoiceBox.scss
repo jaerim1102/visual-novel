@@ -1,0 +1,23 @@
+.choice-box {
+   position: absolute;
+   bottom: 220px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   z-index: 4;
+ 
+   button {
+     background-color: #ffc107;
+     border: none;
+     padding: 1rem 2rem;
+     font-size: 1rem;
+     border-radius: 10px;
+     cursor: pointer;
+ 
+     &:hover {
+       background-color: #ff9800;
+     }
+   }
+ }
+ 
